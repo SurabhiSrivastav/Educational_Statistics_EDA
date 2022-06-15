@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Boxify: Free HTML5/CSS3 Template</title>
+		<meta name="description" content="A free HTML5/CSS3 template made exclusively for Codrops" />
+		<meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design" />
+		<meta name="author" content="" />
+		<!-- Bootstrap -->
+		<script src="js/modernizr.custom.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/jquery.fancybox.css" rel="stylesheet">
+		<link href="css/flickity.css" rel="stylesheet" >
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/queries.css" rel="stylesheet">
+		
+		
+		<meta property="og:title" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:url" content=""/>
+		<meta property="og:site_name" content=""/>
+		<meta property="og:description" content=""/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+		
+
+	</head>
+	<body>
+		
+		
+		<header>
+			<section class="hero">
+				<div class="texture-overlay"></div>
+				<div class="container">
+					<div class="row nav-wrapper">
+						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
+							<a href="#"><img src="images/logo.png" alt="Education Logo"></a>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
+							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
+						</div>
+					</div>
+					<div class="row hero-content">
+						<div class="col-md-12">
+							<h1 class="animated fadeInDown"><strong>Indian School Education Statistical Analysis.</strong> </h1>
+							<a href="#features" class="use-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		
+		<section class="features-intro" id="features">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 nopadding features-intro-img">
+						<div class="features-bg">
+							<div class="texture-overlay"></div>
+							 <div class="features-img wp1">
+								 <img src="images/Temp-633x400.jpg" alt="Education">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 nopadding">
+						<div class="features-slider">
+								<ul class="slides" id="featuresSlider">
+									<li>
+										<h1>What is Gross Enrolment Ratio?</h1>
+										<p>Gross Enrolment in a specific level of education, regardless of age expressed as a percentage of eligible official school age population
+										corresponding to the same level of education in a given school year.	
+										</p>
+										<p><a href="https://www.education.gov.in/sites/upload_files/mhrd/files/statistics-new/ESAG-2018.pdf" 
+											class="arrow-btn">Find out this report by Government of India <i class="fa fa-long-arrow-right"></i></a></p>
+									</li>
+									<li>
+										<h1>Predicting Gross Enrolment Ratio</h1>
+										<p>Hereby, we have predicted Gross enrolment ratio using Indian School Education Statistical analysis dataset,
+											where we have taken into consideration the factors affecting enrolment, such as dropout ratio, water, computer, electricity, 
+											and toilet facilities for boys and girls.
+										</p>
+										<p><a href="#screenshots-intro" class="arrow-btn">GER Predictor <i class="fa fa-long-arrow-right"></i></a></p>
+									</li>
+									<li>
+										<h1>Comparing previous and current scenario of Education in India</h1>
+										<p>According to the All India Survey on Higher Education, the Gross Enrolment Ratio (GER) in higher education in 
+										India has increased from 20.8% in 2011-12 to 25.8% in 2017-18. 
+										Lack of access is a major reason behind the low intake of higher education.</p>
+										<p><a href="https://www.clearias.com/education-in-india/" class="arrow-btn">Find out detailed analysis here. <i class="fa fa-long-arrow-right"></i></a></p>
+									</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+        
+		<section class="screenshots-intro" id ="screenshots-intro">
+			<div class="container">
+				<form class="form" action="/predict", method="POST">
+				<h1 class="my-3 text-center">GER PREDICTOR</h1>
+				<div class="row">
+					<div class="col-md-6 my-2">
+						<div class="md-form">
+							<label for="st_ut" class="st_ut" name="st_ut">State & Union Territory</label>
+							<select class="st_ut" id="st_ut" name="st_ut" aria-label="St_Ut">
+								<option selected>Select State or Union Territory</option>
+								<option value= 24>Andaman & Nicobar Islands</option>
+								<option value= 7>Andhra Pradesh</option>
+								<option value= 30>Arunachal Pradesh</option>
+								<option value= 46>Assam</option>
+								<option value= 33>Bihar</option>
+								<option value= 14>Chandigarh</option>
+								<option value= 36>Chhattisgarh</option>
+								<option value= 21>Dadra & Nagar Haveli</option>
+								<option value= 2>Daman & Diu</option>
+								<option value= 43>Delhi</option>
+								<option value= 9>Goa</option>
+								<option value= 4>Gujarat</option>
+								<option value= 11>Haryana</option>
+								<option value= 15>Himachal Pradesh</option>
+								<option value= 17>Jammu & Kashmir</option>
+								<option value= 45>Jharkhand</option>
+								<option value= 23>Karnataka</option>
+								<option value= 28>Kerala</option>
+								<option value= 25>Lakshadweep</option>
+								<option value= 44>Madhya Pradesh</option>
+								<option value= 42>Maharashtra</option>
+								<option value= 5>Manipur</option>
+								<option value= 12>Meghalaya</option>
+								<option value= 19>Mizoram</option>
+								<option value= 47>Nagaland</option>
+								<option value= 13>Odisha</option>
+								<option value= 6>Puducherry</option>
+								<option value= 32>Punjab</option>
+								<option value= 40>Rajasthan</option>
+								<option value= 31>Sikkim</option>
+								<option value= 26>Tamil Nadu</option>
+								<option value= 35>Telangana</option>
+								<option value= 1>Tripura</option>
+								<option value= 37>Uttar Pradesh</option>
+								<option value= 27>Uttarakhand</option>
+								<option value= 41>West Bengal</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="col-md-6 my-2">
+						<div class="md-form">
+							<label for="student" class="student" name = "student">Student Category</label>
+							<select class="student" id="student" name="student" aria-label="Student">
+								<option selected>Select Student Category</option>
+								<option value= 2>Primary_Boys</option>
+								<option value= 4>Primary_Girls</option>
+								<option value= 8>Upper_Primary_Boys</option>
+								<option value= 14>Upper_Primary_Girls</option>
+								<option value= 0>Secondary_Boys</option>
+								<option value= 11>Secondary_Girls</option>
+								<option value= 9>Higher_Secondary_Boys</option>
+								<option value= 10>Higher_Secondary_Girls</option>
+							</select>
+						</div>
+					</div>
+					
+					<div class="col-md-6 my-2">
+						<div class="md-form">
+							<label for="year" class="year" name = "year">Year between 2013-2016</label>
+							<select class="year" id="year" name="year" aria-label="Year">
+								<option selected>Select Year</option>
+								<option value= 0>2013-14</option>
+								<option value= 1>2014-15</option>
+								<option value= 2>2015-16</option>
+							</select>
+						</div>
+					</div>
+					
+					<div class="col-md-6 my-2">
+						<div class="md-form">
+							<label for="total" class="total" name = "total">Student Category Total</label>
+							<select class="total" id="total" name = "total" aria-label="Total">
+								<option selected>Select Student Category Total</option>
+								<option value= 3>Primary_Total</option>
+								<option value= 4>Upper_Primary_Total</option>
+								<option value= 7>Secondary_Total</option>
+								<option value= 15>Higher_Secondary_Total</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-6 my-2 d-flex align-items-end justify-content-around">
+						<button type="submit" class="btn btn-info button">Predict</button>
+					</div>
+				</div>
+			</form>
+		</section>
+		<div>
+				</div>
+			</div>
+		</section>
+		
+
+		<section class="screenshots" id="screenshots">
+			<div class="container-fluid">
+				<div class="row">
+    <h1>Dashboard</h1>
+	<div class="images">
+		<div class="photo">
+			<img src="images/dashboard1.jpg" alt="photo" />
+		</div>
+
+		<div class="photo">
+			<img src="images/dashboard2.jpg" alt="photo" />
+		</div>
+		
+		<div class="photo">
+			<img src="images/dashboard3.jpg" alt="photo" />
+		</div>
+		<div class="photo">
+			<img src="images/dashboard4.jpg" alt="photo" />
+		</div>
+	</div>
+	</div>
+	</div>
+	</section>
+
+
+		
+		<section class="download" id="download">
+			
+						<section class="feedback">
+							
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 text-center wp4">
+										<h1>Articles</h1>
+									<div class="col-md-4">
+									  <div class="user-rvw">
+										  <p>Currently the integration of technology and pedagogy 
+											is just 2-3% and efforts must be made to increase it in the next couple of years.
+											It is one thing to enrol boys and girls in education institutions and another to keep them there.
+											With the pandemic affecting the education system in a big way, the country is expected to see a rise in the dropout rate.
+										  <h5><a href="https://www.thehindu.com/education/how-dropout-rates-can-be-reduced-and-students-provided-with-quality-education/article36398654.ece">
+											  Read more..</a></h5>
+										  
+										</div>
+									   
+									
+									</div>
+									<div class="col-md-4">
+										<div class="user-rvw">
+											<p>
+												Setting retention of students across all levels as one of its primary goals, 
+												NEP 2020 has recommended that the government must first provide 'effective and sufficient' infrastructure so that all 
+												students have access to safe and engaging school education at all levels.
+												NEP can prove a game-changer, if implemented carefully.
+											</p>
+											<h5><a href="https://www.outlookindia.com/website/story/india-news-national-education-policy-2020-provides-multi-pronged-strategy-to-check-school-drop-out-rates/357769">
+												Read more..</a></h5>
+										  </div>
+										 
+							  
+									</div>
+									<div class="col-md-4">
+										<div class="user-rvw">
+											<p>Even before the pandemic, Indian schools saw high dropout rates and declining enrolment rates.
+												Over the last decade, learning outcomes for children in India have steadily declined. This is despite an increase in budgeted expenditure on education, 
+												from INR 3.6 lakh crore to INR 4.6 lakh crore over a 10-year period (2006-2016).
+												</p>
+											 <h5><a href="https://timesofindia.indiatimes.com/blogs/developing-contemporary-india/education-in-india-needs-an-overhaul/">
+												Read more..</a></h5>
+										  </div>
+									  
+									</div>
+								</div>
+							</div>
+									</section>
+									
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h1 class="footer-logo">
+						<img src="images/logo.png" alt="Footer Logo Blue">
+						</h1>
+						
+					<p class="copywright">Made with <i class="fa fa-heart"></i> by EduStats Corp. India</p>
+					</div>
+					<div class="col-md-7">
+                        <h2>Follow Us On</h2>
+						<ul class="footer-nav">
+							<li><a href="https://github.com/SurabhiSrivastav">Github</a></li>
+							<li><a href="https://www.linkedin.com/in/surabhi-srivastava-565b25190/">Linkedin</a></li>
+							<li><a href="https://twitter.com/Surabhi80293202">Twitter</a></li>
+                            <li><a href="https://www.kaggle.com/surabhisrivastava2">Kaggle</a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</footer>
+		<div class="overlay overlay-boxify">
+			<nav>
+				<ul>
+					<li><a href="#features"><i class="fa fa-heart"></i>About</a></li>
+					<li><a href="#screenshots-intro"><i class="fa fa-flash"></i>Predictor</a></li>
+				</ul>
+				<ul>
+					<li><a href="#screenshots"><i class="fa fa-desktop"></i>Dashboard</a></li>
+					<li><a href="#download"><i class="fa fa-download"></i>Blogs</a></li>
+				</ul>
+			</nav>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/min/toucheffects-min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/flickity.pkgd.min.js"></script>
+		<script src="js/jquery.fancybox.pack.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/retina.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/min/scripts-min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		e.src='//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+	</body>
+</html>
